@@ -56,6 +56,8 @@ class FirstFragment : Fragment() {
                 Analytics.trackEvent("wrong_age")
             }
 
+            binding.resultTextView.text = "At the current rate of $interestRate%..."
+
         }
     }
 
